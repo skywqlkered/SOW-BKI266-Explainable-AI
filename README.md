@@ -8,7 +8,12 @@ To install the necessary files to grade/test this project:
 pip install -r requirements.txt
 ```
 
-Run the download script, this downloads the dataset and moves it to the current working directory:
+## Execution
+When all the libraries and dataset are installed the code can be executed in the notebook. This will preprocess, train and evaluate the model, and will show the results as discussed in the paper.
+
+
+## Dataset
+If the dataset is missing or incomplete it can be downloaded using the download script, this downloads the dataset and moves it to the current working directory:
 ```bash
 py download_dataset.py
 ```
@@ -26,7 +31,3 @@ Note: If the file moving for whatever reason doesn't come through, the path of t
     - [**main.ipynb**](main.ipynb)
     - [**README.md**](README.md)
     - [**requirements.txt**](requirements.txt)
-
-
-## Execution
-When all the libraries and dataset are installed the code can be executed in the notebook. This will preprocess, train and evaluate the model, and will show the results as discussed in the paper.
